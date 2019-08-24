@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.2.xsd">
+    <suppress>
+        <notes><![CDATA[
+      file name: spring-boot-starter-batch-2.1.5.RELEASE.jar
+      ]]></notes>
+        <gav regex="true">^org\.springframework\.boot:spring-boot-starter-batch:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_batch</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-boot-starter-batch-2.1.5.RELEASE.jar
+   ]]></notes>
+        <gav regex="true">^org\.springframework\.boot:spring-boot-starter-batch:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_boot</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-integration-tuple-1.0.0.RELEASE.jar
+   ]]></notes>
+        <gav regex="true">^org\.springframework\.integration:spring-integration-tuple:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_integration</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-tuple-1.0.0.RELEASE.jar
+   ]]></notes>
+        <gav regex="true">^org\.springframework:spring-tuple:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-boot-starter-integration-2.1.6.RELEASE.jar
+   ]]></notes>
+        <gav regex="true">^org\.springframework\.boot:spring-boot-starter-integration:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_boot</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-cloud-task-batch-2.1.2.RELEASE.jar
+   ]]></notes>
+        <gav regex="true">^org\.springframework\.cloud:spring-cloud-task-batch:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_batch</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-batch-integration-4.1.2.RELEASE.jar
+   ]]></notes>
+        <gav regex="true">^org\.springframework\.batch:spring-batch-integration:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_batch</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-boot-starter-integration-2.1.6.RELEASE.jar
+   ]]></notes>
+        <gav regex="true">^org\.springframework\.boot:spring-boot-starter-integration:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_integration</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-batch-integration-4.1.2.RELEASE.jar
+   ]]></notes>
+        <gav regex="true">^org\.springframework\.batch:spring-batch-integration:.*$</gav>
+        <cpe>cpe:/a:pivotal_software:spring_integration</cpe>
+    </suppress>
+    <suppress>
+       <notes><![CDATA[
+       file name: spring-integration-kafka-3.1.0.RELEASE.jar
+       ]]></notes>
+       <gav regex="true">^org\.springframework\.integration:spring-integration-kafka:.*$</gav>
+       <cpe>cpe:/a:pivotal_software:spring_integration</cpe>
+    </suppress>
+</suppressions>
