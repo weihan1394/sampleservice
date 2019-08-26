@@ -20,6 +20,12 @@
         </dependency>
         <dependency>
             <groupId>com.govtech</groupId>
+            <artifactId>sampleservice-externaldto</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.govtech</groupId>
             <artifactId>sampleservice-repo</artifactId>
             <version>1.0.0</version>
             <classifier>tests</classifier>
