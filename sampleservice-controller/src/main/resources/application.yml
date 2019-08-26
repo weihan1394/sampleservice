@@ -26,3 +26,10 @@ rabbitmq:
   username: "guest"
   password: "guest"
   hostname: "localhost"
+  cloud:
+    stream:
+      bindings:
+        batch_channel:
+          destination: batchQueue
+      default:
+        contentType: application/json

@@ -1,7 +1,7 @@
 package com.govtech.datasource.externaldto;
 
-import java.sql.Date;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,8 +9,9 @@ import lombok.Setter;
 @EqualsAndHashCode
 @Getter
 @Setter
+@Builder
 @AllArgsConstructor
-public class BatchDto extends AbstractCditDto {
+public class BatchDto extends AbstractPLPDto {
   private static final long serialVersionUID = 1L;
 
   private String nric;
