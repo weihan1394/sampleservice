@@ -6,11 +6,15 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.govtech.sampleservice.SampleserviceApplication;
 import com.govtech.sampleservice.service.dtos.SampleDto;
+import com.govtech.sampleservice.service.message.MessageChannelFactory;
+import com.govtech.sampleservice.service.message.PreparedDataSource;
+import com.govtech.sampleservice.service.message.RabbitMqServiceImpl;
 import com.govtech.sampleservice.service.services.SampleService;
 import com.govtech.sampleservice.service.services.SampleServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -24,12 +28,15 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
     classes = {
       SampleserviceApplication.class,
       SampleServiceImpl.class,
+      RabbitMqServiceImpl.class,
+      MessageChannelFactory.class,
     })
 @EnableWebMvc
 @WebMvcTest(SampleController.class)
 public class SampleControllerTest {
   @Autowired private MockMvc mvc;
   @MockBean private SampleService sampleService;
+  @MockBean private PreparedDataSource preparedDataSource;
 
   @Before
   public void setUp() {
