@@ -52,3 +52,10 @@ mvn install sonar:sonar -Dsonar.host.url=http://localhost:9000
 http://localhost:8080/v2/api-docs
 http://localhost:8080/swagger-ui.html
 ```
+
+# RabbitMq
+```
+http://localhost:15672
+username:guest
+password:guest
+```
