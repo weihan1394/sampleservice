@@ -5,6 +5,6 @@ import org.springframework.messaging.MessageChannel;
 
 public interface PreparedDataSource {
 
-  @Output("batch_channel")
-  MessageChannel batchSource();
+  @Output("batchChannel")
+  MessageChannel batchChannel();
 }

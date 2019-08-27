@@ -14,7 +14,7 @@ public class MessageChannelFactory {
   public MessageChannel create(Class<? extends AbstractPLPDto> type) {
 
     if (type.equals(BatchDto.class)) {
-      MessageChannel messageChannel = preparedDataSource.batchSource();
+      MessageChannel messageChannel = preparedDataSource.batchChannel();
       return messageChannel;
     }
 
