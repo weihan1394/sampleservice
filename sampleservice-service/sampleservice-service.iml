@@ -61,7 +61,7 @@
     <orderEntry type="library" name="Maven: org.dom4j:dom4j:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-jpamodelgen:5.3.10.Final" level="project" />
-    <orderEntry type="module" module-name="datasource-externaldto" />
+    <orderEntry type="module" module-name="sampleservice-externaldto" />
     <orderEntry type="library" name="Maven: javax.persistence:javax.persistence-api:2.2" level="project" />
     <orderEntry type="module" module-name="sampleservice-repo" scope="TEST" production-on-test="" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.1.3.RELEASE" level="project" />
